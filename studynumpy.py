@@ -22,7 +22,7 @@ import numpy as np
 ###########################
 
 a=np.array([[1,2,3,0,4],[4,4,0,4,4],[1,2,3,0,4]], dtype="int16" )
-        ''' dtype which allows to you to specify your types '''
+        ### dtype which allows to you to specify your types ###
 
 ## get the dimention :
 #####################
@@ -71,7 +71,7 @@ c[:,3]=[55,66] ## with different values
     #############################  3D Examples #############################
     ########################################################################
 
-print("-------------- 3D Examples --------------")
+
 
 
 ## Get a spesific element ( work outside in ):
@@ -92,7 +92,7 @@ k[:,1,:]                    ## This will gives you the number [3 4] and [8 9]
 ################
 
 k[:,1,:]=[[11,22],[44,55]]
-print(k[:,1,:])
+k[:,1,:]
 
 
 
@@ -278,7 +278,7 @@ vaar=(~((filedata > 50) &( filedata <60)))    ## ~ not
 #######################################
 
 new_var=np.array([10,14,0,74,58,17,222,7785,1452])
-print(new_var[[2,5,-1]])
+new_var[[2,5,-1]]
 
 
 
